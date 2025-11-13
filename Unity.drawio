@@ -111,6 +111,18 @@
         <mxCell id="9qSVNzfhPcXcCsCYajjE-29" value="Rebuild(CanvasUpdate): void&lt;div&gt;LayoutComplete(): void&lt;/div&gt;&lt;div&gt;GraphicUpdateComplete(): void&lt;/div&gt;&lt;div&gt;IsDestroyed(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="9qSVNzfhPcXcCsCYajjE-26">
           <mxGeometry y="60" width="180" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="9qSVNzfhPcXcCsCYajjE-37" value="Graphic&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="1460" width="300" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="9qSVNzfhPcXcCsCYajjE-38" value="m_Material: Material&lt;div&gt;~color: Color {get;set;}&lt;/div&gt;&lt;div&gt;~raycastTarget: bool {get;set;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="9qSVNzfhPcXcCsCYajjE-37">
+          <mxGeometry y="26" width="300" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="9qSVNzfhPcXcCsCYajjE-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="9qSVNzfhPcXcCsCYajjE-37">
+          <mxGeometry y="160" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="9qSVNzfhPcXcCsCYajjE-40" value="~SetAllDirty(): void&amp;nbsp;&lt;div&gt;~SetLayoutDirty(): void&lt;/div&gt;&lt;div&gt;~SetVerticesDirty(): void&lt;/div&gt;&lt;div&gt;~SetMaterialDirty(): void&lt;/div&gt;&lt;div&gt;~SetRaycastDirty(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;@代表 override&lt;/div&gt;&lt;div&gt;@OnRectTransformDimesionsChange(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;@OnBeforeTransformParentChanged(): void&lt;/div&gt;&lt;div&gt;@OnTransformParentChanged(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="9qSVNzfhPcXcCsCYajjE-37">
+          <mxGeometry y="168" width="300" height="212" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
