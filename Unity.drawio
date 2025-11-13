@@ -99,6 +99,18 @@
         <mxCell id="9qSVNzfhPcXcCsCYajjE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.485;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="9qSVNzfhPcXcCsCYajjE-18" target="9qSVNzfhPcXcCsCYajjE-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9qSVNzfhPcXcCsCYajjE-26" value="ICanvasElement&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;spacingLeft=4;spacingRight=4;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="1180" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9qSVNzfhPcXcCsCYajjE-27" value="transform: Transform{get;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="9qSVNzfhPcXcCsCYajjE-26">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="9qSVNzfhPcXcCsCYajjE-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="9qSVNzfhPcXcCsCYajjE-26">
+          <mxGeometry y="52" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="9qSVNzfhPcXcCsCYajjE-29" value="Rebuild(CanvasUpdate): void&lt;div&gt;LayoutComplete(): void&lt;/div&gt;&lt;div&gt;GraphicUpdateComplete(): void&lt;/div&gt;&lt;div&gt;IsDestroyed(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="9qSVNzfhPcXcCsCYajjE-26">
+          <mxGeometry y="60" width="180" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
